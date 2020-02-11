@@ -1,0 +1,26 @@
+{
+    "label": "Generate Doxygen",
+    "type": "shell",
+    "command": "doxygen",
+    "args": [
+        "Doxyfile"
+    ],
+    "options": {
+        "cwd": "${workspaceFolder}/300_OPSW/"
+    }, 
+    "problemMatcher": {
+        "owner": "c",
+        "fileLocation": [
+            "relative",
+            "${workspaceFolder}/300_OPSW/"
+        ],
+        "pattern": {
+            "regexp": "^.*\/300_OPSW\/(.+):([0-9]+): ([a-zA-Z]+): (.+)$",
+            "file": 1,
+            "line": 2,
+            //"column": 3,
+            "severity": 3,
+            "message": 4
+        }
+    }
+}
