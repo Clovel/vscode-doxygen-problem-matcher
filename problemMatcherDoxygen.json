@@ -6,16 +6,16 @@
         "Doxyfile"
     ],
     "options": {
-        "cwd": "${workspaceFolder}/300_OPSW/"
+        "cwd": "${workspaceFolder}/"
     }, 
     "problemMatcher": {
         "owner": "c",
         "fileLocation": [
             "relative",
-            "${workspaceFolder}/300_OPSW/"
+            "${workspaceFolder}/"
         ],
         "pattern": {
-            "regexp": "^.*\/300_OPSW\/(.+):([0-9]+): ([a-zA-Z]+): (.+)$",
+            "regexp": "^.*\/(.+):([0-9]+): ([a-zA-Z]+): (.+)$",
             "file": 1,
             "line": 2,
             //"column": 3,
